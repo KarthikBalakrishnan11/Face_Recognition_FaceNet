@@ -30,10 +30,7 @@ To install mtcnn:
 sudo pip install mtcnn
 
 Dataset:
-We are going to use this small dataset from kaggle “5 Celebrity Faces Dataset” for training and testing.
-
-https://www.kaggle.com/dansbecker/5-celebrity-faces-dataset#data.zip
-
+We are going to use our small dataset with the photos of Rajin and AbdulKalam.
 
 Detecting Faces:
 The first step is to detect the face in each photograph and reduce the dataset to a series of faces only.
@@ -48,7 +45,7 @@ A face embedding is a vector that represents the features extracted from the fac
 https://github.com/KarthikBalakrishnan11/Face_Recognition_FaceNet/blob/master/face_embeddings.py
 
 Perform Face Classification:
-Now we need to develop a model to classify face embeddings as one of the known celebrities in the 5 Celebrity Faces Dataset.
+Now we need to develop a model to classify face embeddings.
 
 https://github.com/KarthikBalakrishnan11/Face_Recognition_FaceNet/blob/master/face_classification.py
 
